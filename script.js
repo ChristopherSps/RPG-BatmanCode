@@ -143,7 +143,7 @@ function classOptions(){
   //for (let att6 = 0; att6 < attributes.length; att6++ ){
   for (let att6 = 0; att6 < 1; att6++ ){
     if (attributes[att6][1] >= classReq[att6][1]){
-      choices.push(classes[classReq[att6][2][0]);
+      choices.push(classes[classReq[att6][2][0]]);
     }
   }
   alert("You could be: "+JSON.stringify(choices));
